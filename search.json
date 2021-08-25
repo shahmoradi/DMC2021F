@@ -1,0 +1,19 @@
+[
+	
+		{
+		  "title"      : "Lecture 1: Version Control Systems, Git, and GitHub",
+		  "category"   : "",
+		  "url"        : "/lecture/1-vcs",
+		  "date"       : "2021-08-25 00:00:00 -0500",
+		  "shortdate"  : "August 25, 2021"
+		} ,
+	
+		{
+		  "title"      : "Announcement 0: Student-professor connection day",
+		  "category"   : "",
+		  "url"        : "/announcement/0-student-professor-connection-day",
+		  "date"       : "2021-08-25 00:00:00 -0500",
+		  "shortdate"  : "August 25, 2021"
+		} 
+	
+]
