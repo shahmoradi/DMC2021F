@@ -1,10 +1,10 @@
-# DMC2020U
+# DMC2021F
 
-## Summer 2020 - Data Mining, Management, and Curation
+## Fall 2021 - Data Mining, Management, and Curation
  
 Information about this course can be found on the course web-page:
  
-http://www.cdslab.org/DMC2020U/
+http://www.cdslab.org/DMC2021F/
 
 For questions about this course, contact:
 
