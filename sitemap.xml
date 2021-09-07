@@ -48,7 +48,27 @@
 
     
     <url>
-        <loc>/DMC2021F/lecture/1-vcs</loc>
+        <loc>/DMC2021F/lecture/4-data</loc>
+    </url>
+    
+    <url>
+        <loc>/DMC2021F/homework/1-intro-data</loc>
+    </url>
+    
+    <url>
+        <loc>/DMC2021F/lecture/3-data</loc>
+    </url>
+    
+    <url>
+        <loc>/DMC2021F/lecture/2-intro.ml</loc>
+    </url>
+    
+    <url>
+        <loc>/DMC2021F/lecture/1-intro</loc>
+    </url>
+    
+    <url>
+        <loc>/DMC2021F/lecture/0-vcs</loc>
     </url>
     
     <url>
