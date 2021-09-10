@@ -7,13 +7,89 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DMC2021F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DMC2021F/" />
-<updated>2021-09-07T15:19:47-05:00</updated>
+<updated>2021-09-10T12:55:26-05:00</updated>
 <id>http:/DMC2021F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DMC2021F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 1: Introduction, getting to know the data]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/1-intro-dmc"/>
+  <id>http:/DMC2021F/quiz/1-intro-dmc</id>
+  <published>2021-09-10T00:00:00-05:00</published>
+  <updated>2021-09-10T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Data and methods of summarizing data. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Approximately when did we (the human society) enter the Zeta-Byte era?&lt;/li&gt;
+  &lt;li&gt;Approximately how much information was exchanged in the first of the zeta-byte era? An order-of-magnitude estimate is enough.&lt;/li&gt;
+  &lt;li&gt;What is Data Mining? A short one-sentence description is enough.&lt;/li&gt;
+  &lt;li&gt;In what decade did the Structured Query Languages become popular?&lt;/li&gt;
+  &lt;li&gt;In what decade did the Online Transaction Processing (OLTP) become popular?&lt;/li&gt;
+  &lt;li&gt;Which kind of data processing (OLTP vs. OLAP) is specifically optimized for complex historical data analytics?&lt;/li&gt;
+  &lt;li&gt;Which type of data processing is best suited for realtime analysis and data storage?&lt;/li&gt;
+  &lt;li&gt;What data processing technique is mostly used with Data Bases? OLTP or OLAP?&lt;/li&gt;
+  &lt;li&gt;What data processing technique is mostly used with Data Warehouses? OLTP or OLAP?&lt;/li&gt;
+  &lt;li&gt;How is a data warehouse different from a database? How are they similar?&lt;/li&gt;
+  &lt;li&gt;Name or describe the first three steps of Knowledge Discovery?&lt;/li&gt;
+  &lt;li&gt;Name two major flavors (kinds) of Data Mining.&lt;/li&gt;
+  &lt;li&gt;What kind of Data Mining is more akin to Machine Learning?&lt;/li&gt;
+  &lt;li&gt;What is an outlier?&lt;/li&gt;
+  &lt;li&gt;Outliers are often discarded as noise. However, one person’s garbage could be another’s treasure. For example, exceptions in credit card transactions can help us detect the fraudulent use of credit cards. Using fraudulence detection as an example, propose two methods that can be used to detect outliers and discuss which one is more reliable.&lt;/li&gt;
+  &lt;li&gt;How is supervised learning different from unsupervised learning?&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name three common synonyms for data &lt;code&gt;attribute&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are the possible implications of the presence of outliers in a dataset? (briefly describing two possible scenarios would be enough)&lt;/li&gt;
+  &lt;li&gt;Explain the difference and similarity between classification and regression.&lt;/li&gt;
+  &lt;li&gt;What is a Data Tuple?&lt;/li&gt;
+  &lt;li&gt;How is Binary attribute different from Nominal attribute?&lt;/li&gt;
+  &lt;li&gt;How is Ordinal attribute different from Nominal attribute?&lt;/li&gt;
+  &lt;li&gt;How is Ordinal attribute different from Numeric attribute?&lt;/li&gt;
+  &lt;li&gt;How is a location attribute different from a scale attribute?&lt;/li&gt;
+  &lt;li&gt;Do continuous attributes take countable values?&lt;/li&gt;
+  &lt;li&gt;Are the possible values for discrete attributes always limited and finite?&lt;/li&gt;
+  &lt;li&gt;Suppose we have a dataset comprised of an attribute $\{X_i, i = 1, N\}$ with each of which has the corresponding weight $\{W_i, i = 1, N\}$. Write down the equation for the weighted average of $X_i$.&lt;/li&gt;
+  &lt;li&gt;Which statistic is more robust with respect to outliers? Mode, Mean, Median. Why?&lt;/li&gt;
+  &lt;li&gt;Which measure of dispersion is more robust with respect to outliers? variance, range, interquartile range. Why?&lt;/li&gt;
+  &lt;li&gt;What statistical property does the skewness statistic measure about data?&lt;/li&gt;
+  &lt;li&gt;What statistical property does the kurtosis statistic measure about data?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-sample-chebyshev-inequality/stat-sample-chebyshev-inequality&quot; target=&quot;_blank&quot;&gt;An experimental proof of Chebyshev’s inequality&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/1-intro-dmc&quot;&gt;Quiz 1: Introduction, getting to know the data&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302&lt;/a&gt; on September 10, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

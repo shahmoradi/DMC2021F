@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 1: Introduction, getting to know the data",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/1-intro-dmc",
+		  "date"       : "2021-09-10 00:00:00 -0500",
+		  "shortdate"  : "September 10, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 4: Knowing Data II",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/lecture/4-data",

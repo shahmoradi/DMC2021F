@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 1: Introduction, getting to know the data",
+    "href": "/DMC2021F/quiz/1-intro-dmc"
+  } ,
+
+  {
     "text": "Lecture 4: Knowing Data II",
     "href": "/DMC2021F/lecture/4-data"
   } ,
