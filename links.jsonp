@@ -37,6 +37,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 2: Data visualization",
+    "href": "/DMC2021F/homework/1-data-vis"
+  } ,
+
+  {
     "text": "Homework 1: Introduction and getting to know the data",
     "href": "/DMC2021F/homework/1-intro-data"
   } ,

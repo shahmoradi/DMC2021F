@@ -7,13 +7,41 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DMC2021F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DMC2021F/" />
-<updated>2021-09-13T13:14:27-05:00</updated>
+<updated>2021-09-18T14:43:27-05:00</updated>
 <id>http:/DMC2021F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DMC2021F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 2: Data visualization]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/1-data-vis"/>
+  <id>http:/DMC2021F/homework/1-data-vis</id>
+  <published>2021-09-16T00:00:00-05:00</published>
+  <updated>2021-09-16T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday September 24, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/reading-data-from-web/reading-data-from-web&quot; target=&quot;_blank&quot;&gt;Visualizing data summaries and correlated uncertainties&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-avg-precipitation-choropleth/visualization-avg-precipitation-choropleth&quot; target=&quot;_blank&quot;&gt;Visualizing the average precipitation among the US states&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;What is the difference between Choropleth and Cartogram visualizations?&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/1-data-vis&quot;&gt;Homework 2: Data visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302&lt;/a&gt; on September 16, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
