@@ -1,0 +1,59 @@
+
+callback([
+
+  {
+    "text": "Quiz 1: Introduction, getting to know the data",
+    "href": "/DMC2021F/quiz/1-intro-dmc"
+  } ,
+
+  {
+    "text": "Lecture 6: Data Distributions",
+    "href": "/DMC2021F/lecture/6-data.dist"
+  } ,
+
+  {
+    "text": "Lecture 5: Data Visualization",
+    "href": "/DMC2021F/lecture/5-data.vis"
+  } ,
+
+  {
+    "text": "Lecture 4: Knowing Data II",
+    "href": "/DMC2021F/lecture/4-data"
+  } ,
+
+  {
+    "text": "Lecture 3: Knowing Data I",
+    "href": "/DMC2021F/lecture/3-data"
+  } ,
+
+  {
+    "text": "Lecture 2: Introduction - ML",
+    "href": "/DMC2021F/lecture/2-intro.ml"
+  } ,
+
+  {
+    "text": "Lecture 1: Introduction",
+    "href": "/DMC2021F/lecture/1-intro"
+  } ,
+
+  {
+    "text": "Lecture 0: Version Control Systems, Git, and GitHub",
+    "href": "/DMC2021F/lecture/0-vcs"
+  } ,
+
+  {
+    "text": "Homework 2: Data visualization",
+    "href": "/DMC2021F/homework/1-data-vis"
+  } ,
+
+  {
+    "text": "Homework 1: Introduction and getting to know the data",
+    "href": "/DMC2021F/homework/1-intro-data"
+  } ,
+
+  {
+    "text": "Announcement 0: Student-professor connection day",
+    "href": "/DMC2021F/announcement/0-student-professor-connection-day"
+  } 
+
+])
