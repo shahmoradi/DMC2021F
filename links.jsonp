@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 2: Data Visualization",
+    "href": "/DMC2021F/quiz/2-vis"
+  } ,
+
+  {
     "text": "Quiz 1: Introduction, getting to know the data",
     "href": "/DMC2021F/quiz/1-intro-dmc"
   } ,
@@ -43,7 +48,7 @@ callback([
 
   {
     "text": "Homework 2: Data visualization",
-    "href": "/DMC2021F/homework/1-data-vis"
+    "href": "/DMC2021F/homework/2-data-vis"
   } ,
 
   {

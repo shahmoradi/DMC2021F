@@ -48,11 +48,15 @@
 
     
     <url>
+        <loc>/DMC2021F/quiz/2-vis</loc>
+    </url>
+    
+    <url>
         <loc>/DMC2021F/lecture/6-data.dist</loc>
     </url>
     
     <url>
-        <loc>/DMC2021F/homework/1-data-vis</loc>
+        <loc>/DMC2021F/homework/2-data-vis</loc>
     </url>
     
     <url>
