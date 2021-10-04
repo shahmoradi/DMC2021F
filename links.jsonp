@@ -12,6 +12,16 @@ callback([
   } ,
 
   {
+    "text": "Lecture 8: Data Series",
+    "href": "/DMC2021F/lecture/8-data.series"
+  } ,
+
+  {
+    "text": "Lecture 7: Data Correlation",
+    "href": "/DMC2021F/lecture/7-data.cor"
+  } ,
+
+  {
     "text": "Lecture 6: Data Distributions",
     "href": "/DMC2021F/lecture/6-data.dist"
   } ,
@@ -44,6 +54,11 @@ callback([
   {
     "text": "Lecture 0: Version Control Systems, Git, and GitHub",
     "href": "/DMC2021F/lecture/0-vcs"
+  } ,
+
+  {
+    "text": "Homework 3: Data covariance",
+    "href": "/DMC2021F/homework/3-data-cor"
   } ,
 
   {

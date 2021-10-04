@@ -9,6 +9,30 @@
 		} ,
 	
 		{
+		  "title"      : "Lecture 8: Data Series",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/8-data.series",
+		  "date"       : "2021-10-01 00:00:00 -0500",
+		  "shortdate"  : "October 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 3: Data covariance",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/3-data-cor",
+		  "date"       : "2021-10-01 00:00:00 -0500",
+		  "shortdate"  : "October 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 7: Data Correlation",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/7-data.cor",
+		  "date"       : "2021-09-27 00:00:00 -0500",
+		  "shortdate"  : "September 27, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 6: Data Distributions",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/lecture/6-data.dist",
