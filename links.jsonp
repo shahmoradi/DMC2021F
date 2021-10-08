@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 3: Correlation and Covariance",
+    "href": "/DMC2021F/quiz/3-cor"
+  } ,
+
+  {
     "text": "Quiz 2: Data Visualization",
     "href": "/DMC2021F/quiz/2-vis"
   } ,

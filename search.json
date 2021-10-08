@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 3: Correlation and Covariance",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/3-cor",
+		  "date"       : "2021-10-08 00:00:00 -0500",
+		  "shortdate"  : "October 08, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 2: Data Visualization",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/quiz/2-vis",
