@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 4: Time Series",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/4-data-time-series",
+		  "date"       : "2021-10-11 00:00:00 -0500",
+		  "shortdate"  : "October 11, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 3: Correlation and Covariance",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/quiz/3-cor",

@@ -62,6 +62,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 4: Time Series",
+    "href": "/DMC2021F/homework/4-data-time-series"
+  } ,
+
+  {
     "text": "Homework 3: Data covariance",
     "href": "/DMC2021F/homework/3-data-cor"
   } ,
