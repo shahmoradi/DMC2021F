@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 4: Timer Series and Cross-Correlation",
+    "href": "/DMC2021F/quiz/4-tseries"
+  } ,
+
+  {
     "text": "Quiz 3: Correlation and Covariance",
     "href": "/DMC2021F/quiz/3-cor"
   } ,

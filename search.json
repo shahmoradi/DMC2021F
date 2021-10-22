@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 4: Timer Series and Cross-Correlation",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/4-tseries",
+		  "date"       : "2021-10-21 00:00:00 -0500",
+		  "shortdate"  : "October 21, 2021"
+		} ,
+	
+		{
 		  "title"      : "Homework 4: Time Series",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/homework/4-data-time-series",
