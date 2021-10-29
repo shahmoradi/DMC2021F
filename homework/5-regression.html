@@ -11,7 +11,7 @@
 -->
 
 <meta charset="utf-8">
-<title>HOMEWORK 1: INTRODUCTION AND GETTING TO KNOW THE DATA &vert; DATA 3421 - FALL 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313</title>
+<title>HOMEWORK 5: REGRESSION AND THE LIKELIHOOD PRINCIPLE &vert; DATA 3421 - FALL 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313</title>
 <meta name="description" content="Data Mining, Management, and Curation">
 <meta name="keywords" content="">
 
@@ -20,9 +20,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Homework 1: Introduction and getting to know the data">
+<meta property="og:title" content="Homework 5: Regression and the likelihood principle">
 <meta property="og:description" content="Data Mining, Management, and Curation">
-<meta property="og:url" content="/DMC2021F/homework/1-intro-data">
+<meta property="og:url" content="/DMC2021F/homework/5-regression">
 <meta property="og:site_name" content="DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313">
 <meta property="og:image" content="/DMC2021F/images/">
 
@@ -30,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/DMC2021F/homework/1-intro-data">
+<link rel="canonical" href="/DMC2021F/homework/5-regression">
 <!-- <link href="/DMC2021F/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313 Feed"> -->
 
 
@@ -130,8 +130,8 @@ MathJax.Hub.Queue(function() {
                 <div class="notepad-post-title-simple row">
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
-                            <h2>Homework 1: Introduction and getting to know the data</h2>
-                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-09-04T00:00:00-05:00">04 Sep 2021</time></strong></p>
+                            <h2>Homework 5: Regression and the likelihood principle</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-10-27T00:00:00-05:00">27 Oct 2021</time></strong></p>
                         </div>
                     </div>
                 </div>
@@ -142,42 +142,12 @@ MathJax.Hub.Queue(function() {
         
             <div style="text-align:justify;">
                 <p><br />
-♣ <strong>Due Date: Friday September 10, 2021 1:00 PM</strong>.</p>
-
-<p>First, use the following Markdown language references, or any other reference that you find or prefer, to design a Github-interpretable README file for each of folders in your project for this course, and a Github web-page for your project.</p>
-
-<ul>
-  <li><a href="/DMC2021F/lecture/1/markdown-cheatsheet-online.pdf" target="_blank">Markdown language cheat-sheet (pdf)</a></li>
-  <li><a href="https://blog.ghost.org/markdown/" target="_blank">Markdown language reference (web)</a></li>
-  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Adam Pritchard’s Markdown cheat-sheet (web)</a></li>
-</ul>
-
-<p>Write your code sections of your answer in Markdown syntax.
-For example,<br />
-<code>
-    ```bash  <br />
-    $ git branch -d test  <br />
-    error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'  <br />
-    ```
-</code>
-<br />
-will display the following text highlighted as <em>bash</em> code, in your <em>readme.md</em> file (albeit, with different style and color).</p>
-<pre><code class="language-bash">$ git branch -d test
-error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
-</code></pre>
+♣ <strong>Due Date: Friday Nov 5, 2021 1:00 PM</strong>.</p>
 
 <ol>
-  <li><a href="https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1" target="_blank">Version-control using Git and GitHub (Only Part 1)</a>.</li>
-  <li>What is Data Mining?</li>
-  <li>How is a data warehouse different from a database? How are they similar?</li>
-  <li>Explain the difference and similarity between classification and regression.</li>
-  <li>Outliers are often discarded as noise. However, one person’s garbage could be another’s treasure. For example, exceptions in credit card transactions can help us detect the fraudulent use of credit cards. Using fraudulence detection as an example, propose two methods that can be used to detect outliers and discuss which one is more reliable.</li>
-  <li>What is a Data Tuple?</li>
-  <li>What are the major challenges of mining a huge amount of data (e.g., billions of tuples) in comparison with mining a small amount of data (e.g., data set of a few hundred tuple)?</li>
-  <li>Name the common kinds of attributes and provide an example for each.</li>
-  <li><a href="https://www.cdslab.org/recipes/programming/stat-mean-weighted/stat-mean-weighted" target="_blank">Computing the mean of a weighted data.</a></li>
-  <li><a href="https://www.cdslab.org/recipes/programming/stat-sample-mean-variance-skewness-kurtosis/stat-sample-mean-variance-skewness-kurtosis" target="_blank">Computing the first four moments of a sample.
-</a></li>
+  <li><a href="https://www.cdslab.org/recipes/programming/regression-gaussian-data/regression-gaussian-data" target="_blank">Regression: Estimating the parameters of a Normally-distributed sample</a>.</li>
+  <li><a href="https://www.cdslab.org/recipes/programming/regression-censored-gaussian-data/regression-censored-gaussian-data" target="_blank">Regression: Predicting the distribution of the a dataset subjected to censorship (sample incompleteness)</a>.</li>
+  <li><a href="https://www.cdslab.org/recipes/programming/regression-censored-mvn-data/regression-censored-mvn-data" target="_blank">Regression: Predicting the bivariate distribution of the a dataset subjected to censorship (sample incompleteness)</a>.</li>
 </ol>
 
             </div>
@@ -185,11 +155,11 @@ error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
         <div class="cf"></div>
 <div class="row text-center">
     <section class="notepad-post-share">
-        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Homework 1: Introduction and getting to know the data&quot;%20/DMC2021F/homework/1-intro-data%20via%20&#64;"
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Homework 5: Regression and the likelihood principle&quot;%20/DMC2021F/homework/5-regression%20via%20&#64;"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
             <i class="fa fa-twitter"></i>
         </a>
-        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DMC2021F/homework/1-intro-data"
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DMC2021F/homework/5-regression"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
             <i class="fa fa-facebook"></i>
         </a>

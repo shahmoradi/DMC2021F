@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 5: Regression and the likelihood principle",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/5-regression",
+		  "date"       : "2021-10-27 00:00:00 -0500",
+		  "shortdate"  : "October 27, 2021"
+		} ,
+	
+		{
 		  "title"      : "Quiz 4: Timer Series and Cross-Correlation",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/quiz/4-tseries",

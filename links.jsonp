@@ -67,6 +67,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 5: Regression and the likelihood principle",
+    "href": "/DMC2021F/homework/5-regression"
+  } ,
+
+  {
     "text": "Homework 4: Time Series",
     "href": "/DMC2021F/homework/4-data-time-series"
   } ,
