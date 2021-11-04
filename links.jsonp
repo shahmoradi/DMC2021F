@@ -22,6 +22,11 @@ callback([
   } ,
 
   {
+    "text": "Lecture 9: Data Regression",
+    "href": "/DMC2021F/lecture/9-data.regression"
+  } ,
+
+  {
     "text": "Lecture 8: Data Series",
     "href": "/DMC2021F/lecture/8-data.series"
   } ,

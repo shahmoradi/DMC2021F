@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Lecture 9: Data Regression",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/9-data.regression",
+		  "date"       : "2021-11-01 00:00:00 -0500",
+		  "shortdate"  : "November 01, 2021"
+		} ,
+	
+		{
 		  "title"      : "Homework 5: Regression and the likelihood principle",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/homework/5-regression",
