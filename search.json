@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 6: Regression and Classification",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/6-regression-classification",
+		  "date"       : "2021-11-08 00:00:00 -0600",
+		  "shortdate"  : "November 08, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 9: Data Regression",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/lecture/9-data.regression",

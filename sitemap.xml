@@ -45,7 +45,15 @@
         <loc>/DMC2021F/tags/index.html</loc>
     </url>
     
+    <url>
+        <loc>/DMC2021F/page2/</loc>
+    </url>
+    
 
+    
+    <url>
+        <loc>/DMC2021F/homework/6-regression-classification</loc>
+    </url>
     
     <url>
         <loc>/DMC2021F/lecture/9-data.regression</loc>

@@ -72,6 +72,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 6: Regression and Classification",
+    "href": "/DMC2021F/homework/6-regression-classification"
+  } ,
+
+  {
     "text": "Homework 5: Regression and the likelihood principle",
     "href": "/DMC2021F/homework/5-regression"
   } ,
