@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 5: Regression and The Maximum Likelihood Method",
+    "href": "/DMC2021F/quiz/5-regression"
+  } ,
+
+  {
     "text": "Quiz 4: Timer Series and Cross-Correlation",
     "href": "/DMC2021F/quiz/4-tseries"
   } ,

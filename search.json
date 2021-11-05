@@ -9,6 +9,14 @@
 		} ,
 	
 		{
+		  "title"      : "Quiz 5: Regression and The Maximum Likelihood Method",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/5-regression",
+		  "date"       : "2021-11-05 00:00:00 -0500",
+		  "shortdate"  : "November 05, 2021"
+		} ,
+	
+		{
 		  "title"      : "Lecture 9: Data Regression",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/lecture/9-data.regression",

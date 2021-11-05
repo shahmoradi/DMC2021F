@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DMC2021F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DMC2021F/" />
-<updated>2021-11-04T00:19:45-05:00</updated>
+<updated>2021-11-05T13:00:07-05:00</updated>
 <id>http:/DMC2021F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -40,6 +40,51 @@
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/6-regression-classification&quot;&gt;Homework 6: Regression and Classification&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 08, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 5: Regression and The Maximum Likelihood Method]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/5-regression"/>
+  <id>http:/DMC2021F/quiz/5-regression</id>
+  <published>2021-11-05T00:00:00-05:00</published>
+  <updated>2021-11-05T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Time Series. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to &lt;strong&gt;quiz/5/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-linear-gaussian/regression-linear-gaussian&quot; target=&quot;_blank&quot;&gt;Regression: Estimating the parameters of a Normally-distributed sample&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/5-regression&quot;&gt;Quiz 5: Regression and The Maximum Likelihood Method&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 05, 2021.&lt;/p&gt;</content>
 </entry>
 
 
@@ -662,40 +707,6 @@ error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/1-intro&quot;&gt;Lecture 1: Introduction&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on August 30, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 0: Version Control Systems, Git, and GitHub]]></title>
-  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/0-vcs"/>
-  <id>http:/DMC2021F/lecture/0-vcs</id>
-  <published>2021-08-25T00:00:00-05:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DMC2021F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;This set of notes aims at providing an overview of the Version Control Systems (VCS) and how to use them for our needs in this course.&lt;/p&gt;
-
-&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;version-control-systems-git-and-github&quot;&gt;Version Control Systems, Git, and GitHub&lt;/h3&gt;
-
-&lt;p&gt;To learn about VCS, Git, and GitHub, we will follow the lecture notes available here,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;VCS (Python)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/matlab/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;VCS (MATLAB)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/0-vcs&quot;&gt;Lecture 0: Version Control Systems, Git, and GitHub&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on August 25, 2021.&lt;/p&gt;</content>
 </entry>
 
 </feed>
