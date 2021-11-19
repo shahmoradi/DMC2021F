@@ -11,7 +11,7 @@
 -->
 
 <meta charset="utf-8">
-<title>QUIZ 1: INTRODUCTION, GETTING TO KNOW THE DATA &vert; DATA 3421 - FALL 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313</title>
+<title>QUIZ 6: REGRESSION AND THE MAXIMUM LIKELIHOOD METHOD &vert; DATA 3421 - FALL 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313</title>
 <meta name="description" content="Data Mining, Management, and Curation">
 <meta name="keywords" content="">
 
@@ -20,9 +20,9 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Quiz 1: Introduction, getting to know the data">
+<meta property="og:title" content="Quiz 6: Regression and The Maximum Likelihood Method">
 <meta property="og:description" content="Data Mining, Management, and Curation">
-<meta property="og:url" content="/DMC2021F/quiz/1-intro-dmc">
+<meta property="og:url" content="/DMC2021F/quiz/6-regression">
 <meta property="og:site_name" content="DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313">
 <meta property="og:image" content="/DMC2021F/images/">
 
@@ -30,7 +30,7 @@
 
 
 
-<link rel="canonical" href="/DMC2021F/quiz/1-intro-dmc">
+<link rel="canonical" href="/DMC2021F/quiz/6-regression">
 <!-- <link href="/DMC2021F/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313 Feed"> -->
 
 
@@ -130,8 +130,8 @@ MathJax.Hub.Queue(function() {
                 <div class="notepad-post-title-simple row">
                     <div class="small-12 columns">
                         <div class="notepad-post-meta-simple">
-                            <h2>Quiz 1: Introduction, getting to know the data</h2>
-                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-09-10T00:00:00-05:00">10 Sep 2021</time></strong></p>
+                            <h2>Quiz 6: Regression and The Maximum Likelihood Method</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-11-19T00:00:00-06:00">19 Nov 2021</time></strong></p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,9 @@ The following figure illustrates the grade distribution for this quiz.
 </figure>
 -->
 
-<p>This quiz aims at testing your basic knowledge of Data and methods of summarizing data. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to <strong>quiz/1/</strong> folder in your Github project.</p>
+<p>This quiz aims at testing your basic knowledge of regression and the maximum likelihood method. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to <strong>quiz/6/</strong> folder in your Github project.</p>
 
 <hr />
 <hr />
@@ -161,40 +163,7 @@ The following figure illustrates the grade distribution for this quiz.
 <p><br /></p>
 
 <ol>
-  <li>Approximately when did we (the human society) enter the Zeta-Byte era?</li>
-  <li>Approximately how much information was exchanged in the first of the zeta-byte era? An order-of-magnitude estimate is enough.</li>
-  <li>What is Data Mining? A short one-sentence description is enough.</li>
-  <li>In what decade did the Structured Query Languages become popular?</li>
-  <li>In what decade did the Online Transaction Processing (OLTP) become popular?</li>
-  <li>Which kind of data processing (OLTP vs. OLAP) is specifically optimized for complex historical data analytics?</li>
-  <li>Which type of data processing is best suited for realtime analysis and data storage?</li>
-  <li>What data processing technique is mostly used with Data Bases? OLTP or OLAP?</li>
-  <li>What data processing technique is mostly used with Data Warehouses? OLTP or OLAP?</li>
-  <li>How is a data warehouse different from a database? How are they similar?</li>
-  <li>Name or describe the first three steps of Knowledge Discovery?</li>
-  <li>Name two major flavors (kinds) of Data Mining.</li>
-  <li>What kind of Data Mining is more akin to Machine Learning?</li>
-  <li>What is an outlier?</li>
-  <li>Outliers are often discarded as noise. However, one person’s garbage could be another’s treasure. For example, exceptions in credit card transactions can help us detect the fraudulent use of credit cards. Using fraudulence detection as an example, propose two methods that can be used to detect outliers and discuss which one is more reliable.</li>
-  <li>How is supervised learning different from unsupervised learning?</li>
-  <li>
-    <p>Name three common synonyms for data <code>attribute</code>.</p>
-  </li>
-  <li>What are the possible implications of the presence of outliers in a dataset? (briefly describing two possible scenarios would be enough)</li>
-  <li>Explain the difference and similarity between classification and regression.</li>
-  <li>What is a Data Tuple?</li>
-  <li>How is Binary attribute different from Nominal attribute?</li>
-  <li>How is Ordinal attribute different from Nominal attribute?</li>
-  <li>How is Ordinal attribute different from Numeric attribute?</li>
-  <li>How is a location attribute different from a scale attribute?</li>
-  <li>Do continuous attributes take countable values?</li>
-  <li>Are the possible values for discrete attributes always limited and finite?</li>
-  <li>Suppose we have a dataset comprised of an attribute $\{X_i, i = 1, N\}$ with each of which has the corresponding weight $\{W_i, i = 1, N\}$. Write down the equation for the weighted average of $X_i$.</li>
-  <li>Which statistic is more robust with respect to outliers? Mode, Mean, Median. Why?</li>
-  <li>Which measure of dispersion is more robust with respect to outliers? variance, range, interquartile range. Why?</li>
-  <li>What statistical property does the skewness statistic measure about data?</li>
-  <li>What statistical property does the kurtosis statistic measure about data?</li>
-  <li><a href="https://www.cdslab.org/recipes/programming/stat-sample-chebyshev-inequality/stat-sample-chebyshev-inequality" target="_blank">An experimental proof of Chebyshev’s inequality</a></li>
+  <li><a href="https://www.cdslab.org/recipes/programming/regression-erf-censored-gaussian-data/regression-erf-censored-gaussian-data" target="_blank">Regression: Predicting the distribution of the a dataset subjected to a smooth censorship (sample incompleteness)</a></li>
 </ol>
 
 
@@ -203,11 +172,11 @@ The following figure illustrates the grade distribution for this quiz.
         <div class="cf"></div>
 <div class="row text-center">
     <section class="notepad-post-share">
-        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Quiz 1: Introduction, getting to know the data&quot;%20/DMC2021F/quiz/1-intro-dmc%20via%20&#64;"
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Quiz 6: Regression and The Maximum Likelihood Method&quot;%20/DMC2021F/quiz/6-regression%20via%20&#64;"
             onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
             <i class="fa fa-twitter"></i>
         </a>
-        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DMC2021F/quiz/1-intro-dmc"
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DMC2021F/quiz/6-regression"
             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
             <i class="fa fa-facebook"></i>
         </a>

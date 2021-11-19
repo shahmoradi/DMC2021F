@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 6: Regression and The Maximum Likelihood Method",
+    "href": "/DMC2021F/quiz/6-regression"
+  } ,
+
+  {
     "text": "Quiz 5: Regression and The Maximum Likelihood Method",
     "href": "/DMC2021F/quiz/5-regression"
   } ,
