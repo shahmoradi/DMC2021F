@@ -82,8 +82,13 @@ callback([
   } ,
 
   {
-    "text": "Homework 6: Regression and Classification",
-    "href": "/DMC2021F/homework/6-regression-classification"
+    "text": "Homework 7: Clustering",
+    "href": "/DMC2021F/homework/7-clustering"
+  } ,
+
+  {
+    "text": "Homework 6: Regression",
+    "href": "/DMC2021F/homework/6-regression"
   } ,
 
   {
