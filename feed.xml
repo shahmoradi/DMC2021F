@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+
+
+<title type="text">DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http:/DMC2021F/feed.xml" />
+<link rel="alternate" type="text/html" href="http:/DMC2021F/" />
+<updated>2021-12-03T12:52:16-06:00</updated>
+<id>http:/DMC2021F/</id>
+<author>
+  <name>Amir Shahmoradi</name>
+  <uri>http:/DMC2021F/</uri>
+  <email>shahmoradi@utexas.edu</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 7: Clustering]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/7-clustering"/>
+  <id>http:/DMC2021F/homework/7-clustering</id>
+  <published>2021-11-29T00:00:00-06:00</published>
+  <updated>2021-11-29T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday Dec 3, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-kmeans/clustering-kmeans&quot; target=&quot;_blank&quot;&gt;Kmeans clustering&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-kmeans-customers/clustering-kmeans-customers&quot; target=&quot;_blank&quot;&gt;Kmeans clustering: Determining the cluster number using the Elbow method&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-kmeans-implementation/clustering-kmeans-implementation&quot; target=&quot;_blank&quot;&gt;Kmeans clustering - an implementation&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-dbscan-online/clustering-dbscan-online&quot; target=&quot;_blank&quot;&gt;Online experimentation with DBSCAN clustering technique&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-kmeans-vs-dbscan-online/clustering-kmeans-vs-dbscan-online&quot; target=&quot;_blank&quot;&gt;Online comparison of the Kmeans clustering algorithm with DBSCAN&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/7-clustering&quot;&gt;Homework 7: Clustering&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 29, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 6: Regression and The Maximum Likelihood Method]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/6-regression"/>
+  <id>http:/DMC2021F/quiz/6-regression</id>
+  <published>2021-11-19T00:00:00-06:00</published>
+  <updated>2021-11-19T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of regression and the maximum likelihood method. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to &lt;strong&gt;quiz/6/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-erf-censored-gaussian-data/regression-erf-censored-gaussian-data&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the distribution of the a dataset subjected to a smooth censorship (sample incompleteness)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/6-regression&quot;&gt;Quiz 6: Regression and The Maximum Likelihood Method&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 19, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 6: Regression]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/6-regression"/>
+  <id>http:/DMC2021F/homework/6-regression</id>
+  <published>2021-11-08T00:00:00-06:00</published>
+  <updated>2021-11-08T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday Nov 19, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-censored-gaussian-data/regression-censored-gaussian-data&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the distribution of the a dataset subjected to censorship (sample incompleteness)&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;extra-credit:&lt;/strong&gt; &lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-censored-mvn-data/regression-censored-mvn-data&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the bivariate distribution of the a dataset subjected to censorship (sample incompleteness)&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/6-regression&quot;&gt;Homework 6: Regression&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 08, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 5: Regression and The Maximum Likelihood Method]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/5-regression"/>
+  <id>http:/DMC2021F/quiz/5-regression</id>
+  <published>2021-11-05T00:00:00-05:00</published>
+  <updated>2021-11-05T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Time Series. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to &lt;strong&gt;quiz/5/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://utaedu.questionpro.com/t/AS6OrZpp9C&quot; target=&quot;_blank&quot;&gt;Course Progress Survey&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-linear-gaussian/regression-linear-gaussian&quot; target=&quot;_blank&quot;&gt;Regression: Estimating the parameters of a Normally-distributed sample&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/5-regression&quot;&gt;Quiz 5: Regression and The Maximum Likelihood Method&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 05, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 9: Data Regression]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/9-data.regression"/>
+  <id>http:/DMC2021F/lecture/9-data.regression</id>
+  <published>2021-11-01T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/sjnqkm4da3ep1ka/9.data.regression.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/9-data.regression&quot;&gt;Lecture 9: Data Regression&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 01, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 5: Regression and the likelihood principle]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/5-regression"/>
+  <id>http:/DMC2021F/homework/5-regression</id>
+  <published>2021-10-27T00:00:00-05:00</published>
+  <updated>2021-10-27T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday Nov 5, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-gaussian-data/regression-gaussian-data&quot; target=&quot;_blank&quot;&gt;Regression: Estimating the parameters of a Normally-distributed sample&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/5-regression&quot;&gt;Homework 5: Regression and the likelihood principle&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 27, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 4: Timer Series and Cross-Correlation]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/4-tseries"/>
+  <id>http:/DMC2021F/quiz/4-tseries</id>
+  <published>2021-10-21T00:00:00-05:00</published>
+  <updated>2021-10-21T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Time Series. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to &lt;strong&gt;quiz/4/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-crosscorr-sin-cos/stat-crosscorr-sin-cos&quot; target=&quot;_blank&quot;&gt;Computing the cross-correlation of sin() and cos()&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/4-tseries&quot;&gt;Quiz 4: Timer Series and Cross-Correlation&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 21, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 4: Time Series]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/4-data-time-series"/>
+  <id>http:/DMC2021F/homework/4-data-time-series</id>
+  <published>2021-10-11T00:00:00-05:00</published>
+  <updated>2021-10-11T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday October 22, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-autocorr/stat-autocorr&quot; target=&quot;_blank&quot;&gt;Computing the autocorrelation of a dataset&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-crosscorr/stat-crosscorr&quot; target=&quot;_blank&quot;&gt;Computing the cross-correlation of two data attributes&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-autocorr-removal/stat-autocorr-removal&quot; target=&quot;_blank&quot;&gt;Computing and removing the autocorrelation of a dataset&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/4-data-time-series&quot;&gt;Homework 4: Time Series&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 11, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 3: Correlation and Covariance]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/3-cor"/>
+  <id>http:/DMC2021F/quiz/3-cor</id>
+  <published>2021-10-08T00:00:00-05:00</published>
+  <updated>2021-10-08T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of data covariance. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/3/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-cormat-diag/stat-cormat-diag&quot; target=&quot;_blank&quot;&gt;Prove that the diagonal elements of a correlation matrix of a dataset must be one&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-corcoef-spearman/stat-corcoef-spearman&quot; target=&quot;_blank&quot;&gt;Computing the Spearman rank correlation coefficient of a dataset&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-corcoef-outliers/stat-corcoef-outliers&quot; target=&quot;_blank&quot;&gt;The most sensitive correlation coefficient to outliers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-covmat-from-cormat-std/covmat-from-cormat-std&quot; target=&quot;_blank&quot;&gt;Computing the covariance matrix from the correlation matrix and standard deviations&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/3-cor&quot;&gt;Quiz 3: Correlation and Covariance&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 08, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 2: Data Visualization]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/2-vis"/>
+  <id>http:/DMC2021F/quiz/2-vis</id>
+  <published>2021-10-01T00:00:00-05:00</published>
+  <updated>2021-10-01T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of data visualization. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/2/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-temp-honolulu-duluth/vis-temp-honolulu-duluth&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/2-vis&quot;&gt;Quiz 2: Data Visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 01, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 8: Data Series]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/8-data.series"/>
+  <id>http:/DMC2021F/lecture/8-data.series</id>
+  <published>2021-10-01T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/bci8x8spx3bg0ar/8.data.series.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/8-data.series&quot;&gt;Lecture 8: Data Series&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 01, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 3: Data covariance]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/3-data-cor"/>
+  <id>http:/DMC2021F/homework/3-data-cor</id>
+  <published>2021-10-01T00:00:00-05:00</published>
+  <updated>2021-10-01T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday October 8, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-covmat/stat-covmat&quot; target=&quot;_blank&quot;&gt;Computing the covariance matrix of a dataset&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-cormat/stat-cormat&quot; target=&quot;_blank&quot;&gt;Computing the correlation matrix of a dataset&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-corcoef-pearson/stat-corcoef-pearson&quot; target=&quot;_blank&quot;&gt;Computing the Pearson correlation coefficient of a dataset&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-corcoef-kendall/stat-corcoef-kendall&quot; target=&quot;_blank&quot;&gt;Computing the Kendall’s rank correlation coefficient of a dataset&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/3-data-cor&quot;&gt;Homework 3: Data covariance&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on October 01, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 7: Data Correlation]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/7-data.cor"/>
+  <id>http:/DMC2021F/lecture/7-data.cor</id>
+  <published>2021-09-27T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/y8k2x20uj7mkyv9/7.data.cor.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/7-data.cor&quot;&gt;Lecture 7: Data Correlation&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 27, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 6: Data Distributions]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/6-data.dist"/>
+  <id>http:/DMC2021F/lecture/6-data.dist</id>
+  <published>2021-09-22T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/ttc6tjqq2iufb1r/6.data.dist.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/6-data.dist&quot;&gt;Lecture 6: Data Distributions&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 22, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 2: Data visualization]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/2-data-vis"/>
+  <id>http:/DMC2021F/homework/2-data-vis</id>
+  <published>2021-09-16T00:00:00-05:00</published>
+  <updated>2021-09-16T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday September 24, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/reading-data-from-web/reading-data-from-web&quot; target=&quot;_blank&quot;&gt;Visualizing data summaries and correlated uncertainties&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-avg-precipitation-choropleth/visualization-avg-precipitation-choropleth&quot; target=&quot;_blank&quot;&gt;Visualizing the average precipitation among the US states&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;What is the difference between Choropleth and Cartogram visualizations?&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/2-data-vis&quot;&gt;Homework 2: Data visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 16, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 5: Data Visualization]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/5-data.vis"/>
+  <id>http:/DMC2021F/lecture/5-data.vis</id>
+  <published>2021-09-13T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/mbvq5hzctpsb6r6/5.data.vis.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/5-data.vis&quot;&gt;Lecture 5: Data Visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 13, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 1: Introduction, getting to know the data]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/1-intro-dmc"/>
+  <id>http:/DMC2021F/quiz/1-intro-dmc</id>
+  <published>2021-09-10T00:00:00-05:00</published>
+  <updated>2021-09-10T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Data and methods of summarizing data. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Approximately when did we (the human society) enter the Zeta-Byte era?&lt;/li&gt;
+  &lt;li&gt;Approximately how much information was exchanged in the first of the zeta-byte era? An order-of-magnitude estimate is enough.&lt;/li&gt;
+  &lt;li&gt;What is Data Mining? A short one-sentence description is enough.&lt;/li&gt;
+  &lt;li&gt;In what decade did the Structured Query Languages become popular?&lt;/li&gt;
+  &lt;li&gt;In what decade did the Online Transaction Processing (OLTP) become popular?&lt;/li&gt;
+  &lt;li&gt;Which kind of data processing (OLTP vs. OLAP) is specifically optimized for complex historical data analytics?&lt;/li&gt;
+  &lt;li&gt;Which type of data processing is best suited for realtime analysis and data storage?&lt;/li&gt;
+  &lt;li&gt;What data processing technique is mostly used with Data Bases? OLTP or OLAP?&lt;/li&gt;
+  &lt;li&gt;What data processing technique is mostly used with Data Warehouses? OLTP or OLAP?&lt;/li&gt;
+  &lt;li&gt;How is a data warehouse different from a database? How are they similar?&lt;/li&gt;
+  &lt;li&gt;Name or describe the first three steps of Knowledge Discovery?&lt;/li&gt;
+  &lt;li&gt;Name two major flavors (kinds) of Data Mining.&lt;/li&gt;
+  &lt;li&gt;What kind of Data Mining is more akin to Machine Learning?&lt;/li&gt;
+  &lt;li&gt;What is an outlier?&lt;/li&gt;
+  &lt;li&gt;Outliers are often discarded as noise. However, one person’s garbage could be another’s treasure. For example, exceptions in credit card transactions can help us detect the fraudulent use of credit cards. Using fraudulence detection as an example, propose two methods that can be used to detect outliers and discuss which one is more reliable.&lt;/li&gt;
+  &lt;li&gt;How is supervised learning different from unsupervised learning?&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name three common synonyms for data &lt;code&gt;attribute&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are the possible implications of the presence of outliers in a dataset? (briefly describing two possible scenarios would be enough)&lt;/li&gt;
+  &lt;li&gt;Explain the difference and similarity between classification and regression.&lt;/li&gt;
+  &lt;li&gt;What is a Data Tuple?&lt;/li&gt;
+  &lt;li&gt;How is Binary attribute different from Nominal attribute?&lt;/li&gt;
+  &lt;li&gt;How is Ordinal attribute different from Nominal attribute?&lt;/li&gt;
+  &lt;li&gt;How is Ordinal attribute different from Numeric attribute?&lt;/li&gt;
+  &lt;li&gt;How is a location attribute different from a scale attribute?&lt;/li&gt;
+  &lt;li&gt;Do continuous attributes take countable values?&lt;/li&gt;
+  &lt;li&gt;Are the possible values for discrete attributes always limited and finite?&lt;/li&gt;
+  &lt;li&gt;Suppose we have a dataset comprised of an attribute $\{X_i, i = 1, N\}$ with each of which has the corresponding weight $\{W_i, i = 1, N\}$. Write down the equation for the weighted average of $X_i$.&lt;/li&gt;
+  &lt;li&gt;Which statistic is more robust with respect to outliers? Mode, Mean, Median. Why?&lt;/li&gt;
+  &lt;li&gt;Which measure of dispersion is more robust with respect to outliers? variance, range, interquartile range. Why?&lt;/li&gt;
+  &lt;li&gt;What statistical property does the skewness statistic measure about data?&lt;/li&gt;
+  &lt;li&gt;What statistical property does the kurtosis statistic measure about data?&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-sample-chebyshev-inequality/stat-sample-chebyshev-inequality&quot; target=&quot;_blank&quot;&gt;An experimental proof of Chebyshev’s inequality&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/1-intro-dmc&quot;&gt;Quiz 1: Introduction, getting to know the data&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 10, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 4: Knowing Data II]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/4-data"/>
+  <id>http:/DMC2021F/lecture/4-data</id>
+  <published>2021-09-08T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/x5ppvsbctxhe8w1/4.data.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/4-data&quot;&gt;Lecture 4: Knowing Data II&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 08, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 1: Introduction and getting to know the data]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/1-intro-data"/>
+  <id>http:/DMC2021F/homework/1-intro-data</id>
+  <published>2021-09-04T00:00:00-05:00</published>
+  <updated>2021-09-04T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;&lt;br /&gt;
+♣ &lt;strong&gt;Due Date: Friday September 10, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;First, use the following Markdown language references, or any other reference that you find or prefer, to design a Github-interpretable README file for each of folders in your project for this course, and a Github web-page for your project.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http:/DMC2021F/lecture/1/markdown-cheatsheet-online.pdf&quot; target=&quot;_blank&quot;&gt;Markdown language cheat-sheet (pdf)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.ghost.org/markdown/&quot; target=&quot;_blank&quot;&gt;Markdown language reference (web)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; target=&quot;_blank&quot;&gt;Adam Pritchard’s Markdown cheat-sheet (web)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Write your code sections of your answer in Markdown syntax.
+For example,&lt;br /&gt;
+&lt;code&gt;
+    ```bash  &lt;br /&gt;
+    $ git branch -d test  &lt;br /&gt;
+    error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'  &lt;br /&gt;
+    ```
+&lt;/code&gt;
+&lt;br /&gt;
+will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, in your &lt;em&gt;readme.md&lt;/em&gt; file (albeit, with different style and color).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git branch -d test
+error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub (Only Part 1)&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;What is Data Mining?&lt;/li&gt;
+  &lt;li&gt;How is a data warehouse different from a database? How are they similar?&lt;/li&gt;
+  &lt;li&gt;Explain the difference and similarity between classification and regression.&lt;/li&gt;
+  &lt;li&gt;Outliers are often discarded as noise. However, one person’s garbage could be another’s treasure. For example, exceptions in credit card transactions can help us detect the fraudulent use of credit cards. Using fraudulence detection as an example, propose two methods that can be used to detect outliers and discuss which one is more reliable.&lt;/li&gt;
+  &lt;li&gt;What is a Data Tuple?&lt;/li&gt;
+  &lt;li&gt;What are the major challenges of mining a huge amount of data (e.g., billions of tuples) in comparison with mining a small amount of data (e.g., data set of a few hundred tuple)?&lt;/li&gt;
+  &lt;li&gt;Name the common kinds of attributes and provide an example for each.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-mean-weighted/stat-mean-weighted&quot; target=&quot;_blank&quot;&gt;Computing the mean of a weighted data.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-sample-mean-variance-skewness-kurtosis/stat-sample-mean-variance-skewness-kurtosis&quot; target=&quot;_blank&quot;&gt;Computing the first four moments of a sample.
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/1-intro-data&quot;&gt;Homework 1: Introduction and getting to know the data&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 04, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 3: Knowing Data I]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/3-data"/>
+  <id>http:/DMC2021F/lecture/3-data</id>
+  <published>2021-09-03T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/7at93z6izk3jk2q/3.data.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/3-data&quot;&gt;Lecture 3: Knowing Data I&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 03, 2021.&lt;/p&gt;</content>
+</entry>
+
+</feed>

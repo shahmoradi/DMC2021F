@@ -1,0 +1,124 @@
+
+callback([
+
+  {
+    "text": "Quiz 6: Regression and The Maximum Likelihood Method",
+    "href": "/DMC2021F/quiz/6-regression"
+  } ,
+
+  {
+    "text": "Quiz 5: Regression and The Maximum Likelihood Method",
+    "href": "/DMC2021F/quiz/5-regression"
+  } ,
+
+  {
+    "text": "Quiz 4: Timer Series and Cross-Correlation",
+    "href": "/DMC2021F/quiz/4-tseries"
+  } ,
+
+  {
+    "text": "Quiz 3: Correlation and Covariance",
+    "href": "/DMC2021F/quiz/3-cor"
+  } ,
+
+  {
+    "text": "Quiz 2: Data Visualization",
+    "href": "/DMC2021F/quiz/2-vis"
+  } ,
+
+  {
+    "text": "Quiz 1: Introduction, getting to know the data",
+    "href": "/DMC2021F/quiz/1-intro-dmc"
+  } ,
+
+  {
+    "text": "Lecture 9: Data Regression",
+    "href": "/DMC2021F/lecture/9-data.regression"
+  } ,
+
+  {
+    "text": "Lecture 8: Data Series",
+    "href": "/DMC2021F/lecture/8-data.series"
+  } ,
+
+  {
+    "text": "Lecture 7: Data Correlation",
+    "href": "/DMC2021F/lecture/7-data.cor"
+  } ,
+
+  {
+    "text": "Lecture 6: Data Distributions",
+    "href": "/DMC2021F/lecture/6-data.dist"
+  } ,
+
+  {
+    "text": "Lecture 5: Data Visualization",
+    "href": "/DMC2021F/lecture/5-data.vis"
+  } ,
+
+  {
+    "text": "Lecture 4: Knowing Data II",
+    "href": "/DMC2021F/lecture/4-data"
+  } ,
+
+  {
+    "text": "Lecture 3: Knowing Data I",
+    "href": "/DMC2021F/lecture/3-data"
+  } ,
+
+  {
+    "text": "Lecture 2: Introduction - ML",
+    "href": "/DMC2021F/lecture/2-intro.ml"
+  } ,
+
+  {
+    "text": "Lecture 1: Introduction",
+    "href": "/DMC2021F/lecture/1-intro"
+  } ,
+
+  {
+    "text": "Lecture 0: Version Control Systems, Git, and GitHub",
+    "href": "/DMC2021F/lecture/0-vcs"
+  } ,
+
+  {
+    "text": "Homework 7: Clustering",
+    "href": "/DMC2021F/homework/7-clustering"
+  } ,
+
+  {
+    "text": "Homework 6: Regression",
+    "href": "/DMC2021F/homework/6-regression"
+  } ,
+
+  {
+    "text": "Homework 5: Regression and the likelihood principle",
+    "href": "/DMC2021F/homework/5-regression"
+  } ,
+
+  {
+    "text": "Homework 4: Time Series",
+    "href": "/DMC2021F/homework/4-data-time-series"
+  } ,
+
+  {
+    "text": "Homework 3: Data covariance",
+    "href": "/DMC2021F/homework/3-data-cor"
+  } ,
+
+  {
+    "text": "Homework 2: Data visualization",
+    "href": "/DMC2021F/homework/2-data-vis"
+  } ,
+
+  {
+    "text": "Homework 1: Introduction and getting to know the data",
+    "href": "/DMC2021F/homework/1-intro-data"
+  } ,
+
+  {
+    "text": "Announcement 0: Student-professor connection day",
+    "href": "/DMC2021F/announcement/0-student-professor-connection-day"
+  } 
+
+])

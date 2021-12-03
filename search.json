@@ -1,0 +1,195 @@
+[
+	
+		{
+		  "title"      : "Homework 7: Clustering",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/7-clustering",
+		  "date"       : "2021-11-29 00:00:00 -0600",
+		  "shortdate"  : "November 29, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 6: Regression and The Maximum Likelihood Method",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/6-regression",
+		  "date"       : "2021-11-19 00:00:00 -0600",
+		  "shortdate"  : "November 19, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 6: Regression",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/6-regression",
+		  "date"       : "2021-11-08 00:00:00 -0600",
+		  "shortdate"  : "November 08, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 5: Regression and The Maximum Likelihood Method",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/5-regression",
+		  "date"       : "2021-11-05 00:00:00 -0500",
+		  "shortdate"  : "November 05, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 9: Data Regression",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/9-data.regression",
+		  "date"       : "2021-11-01 00:00:00 -0500",
+		  "shortdate"  : "November 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 5: Regression and the likelihood principle",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/5-regression",
+		  "date"       : "2021-10-27 00:00:00 -0500",
+		  "shortdate"  : "October 27, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 4: Timer Series and Cross-Correlation",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/4-tseries",
+		  "date"       : "2021-10-21 00:00:00 -0500",
+		  "shortdate"  : "October 21, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 4: Time Series",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/4-data-time-series",
+		  "date"       : "2021-10-11 00:00:00 -0500",
+		  "shortdate"  : "October 11, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 3: Correlation and Covariance",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/3-cor",
+		  "date"       : "2021-10-08 00:00:00 -0500",
+		  "shortdate"  : "October 08, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 2: Data Visualization",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/2-vis",
+		  "date"       : "2021-10-01 00:00:00 -0500",
+		  "shortdate"  : "October 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 8: Data Series",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/8-data.series",
+		  "date"       : "2021-10-01 00:00:00 -0500",
+		  "shortdate"  : "October 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 3: Data covariance",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/3-data-cor",
+		  "date"       : "2021-10-01 00:00:00 -0500",
+		  "shortdate"  : "October 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 7: Data Correlation",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/7-data.cor",
+		  "date"       : "2021-09-27 00:00:00 -0500",
+		  "shortdate"  : "September 27, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 6: Data Distributions",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/6-data.dist",
+		  "date"       : "2021-09-22 00:00:00 -0500",
+		  "shortdate"  : "September 22, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 2: Data visualization",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/2-data-vis",
+		  "date"       : "2021-09-16 00:00:00 -0500",
+		  "shortdate"  : "September 16, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 5: Data Visualization",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/5-data.vis",
+		  "date"       : "2021-09-13 00:00:00 -0500",
+		  "shortdate"  : "September 13, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 1: Introduction, getting to know the data",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/1-intro-dmc",
+		  "date"       : "2021-09-10 00:00:00 -0500",
+		  "shortdate"  : "September 10, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 4: Knowing Data II",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/4-data",
+		  "date"       : "2021-09-08 00:00:00 -0500",
+		  "shortdate"  : "September 08, 2021"
+		} ,
+	
+		{
+		  "title"      : "Homework 1: Introduction and getting to know the data",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/homework/1-intro-data",
+		  "date"       : "2021-09-04 00:00:00 -0500",
+		  "shortdate"  : "September 04, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 3: Knowing Data I",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/3-data",
+		  "date"       : "2021-09-03 00:00:00 -0500",
+		  "shortdate"  : "September 03, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 2: Introduction - ML",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/2-intro.ml",
+		  "date"       : "2021-09-01 00:00:00 -0500",
+		  "shortdate"  : "September 01, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 1: Introduction",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/1-intro",
+		  "date"       : "2021-08-30 00:00:00 -0500",
+		  "shortdate"  : "August 30, 2021"
+		} ,
+	
+		{
+		  "title"      : "Lecture 0: Version Control Systems, Git, and GitHub",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/lecture/0-vcs",
+		  "date"       : "2021-08-25 00:00:00 -0500",
+		  "shortdate"  : "August 25, 2021"
+		} ,
+	
+		{
+		  "title"      : "Announcement 0: Student-professor connection day",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/announcement/0-student-professor-connection-day",
+		  "date"       : "2021-08-25 00:00:00 -0500",
+		  "shortdate"  : "August 25, 2021"
+		} 
+	
+]
