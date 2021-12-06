@@ -3,6 +3,11 @@ callback([
 
   {
     "text": "Quiz 6: Regression and The Maximum Likelihood Method",
+    "href": "/DMC2021F/quiz/6-regression-Copy"
+  } ,
+
+  {
+    "text": "Quiz 6: Regression and The Maximum Likelihood Method",
     "href": "/DMC2021F/quiz/6-regression"
   } ,
 
@@ -114,6 +119,11 @@ callback([
   {
     "text": "Homework 1: Introduction and getting to know the data",
     "href": "/DMC2021F/homework/1-intro-data"
+  } ,
+
+  {
+    "text": "Final exam: semester project",
+    "href": "/DMC2021F/exam/1-semester-project"
   } ,
 
   {

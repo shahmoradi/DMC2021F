@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Final exam: semester project",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/exam/1-semester-project",
+		  "date"       : "2021-12-03 00:00:00 -0600",
+		  "shortdate"  : "December 03, 2021"
+		} ,
+	
+		{
 		  "title"      : "Homework 7: Clustering",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/homework/7-clustering",
@@ -12,6 +20,14 @@
 		  "title"      : "Quiz 6: Regression and The Maximum Likelihood Method",
 		  "category"   : "",
 		  "url"        : "/DMC2021F/quiz/6-regression",
+		  "date"       : "2021-11-19 00:00:00 -0600",
+		  "shortdate"  : "November 19, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 6: Regression and The Maximum Likelihood Method",
+		  "category"   : "",
+		  "url"        : "/DMC2021F/quiz/6-regression-Copy",
 		  "date"       : "2021-11-19 00:00:00 -0600",
 		  "shortdate"  : "November 19, 2021"
 		} ,

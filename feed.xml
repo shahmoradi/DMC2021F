@@ -7,13 +7,261 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DMC2021F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DMC2021F/" />
-<updated>2021-12-03T12:52:16-06:00</updated>
+<updated>2021-12-06T00:17:28-06:00</updated>
 <id>http:/DMC2021F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/DMC2021F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Final exam: semester project]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/exam/1-semester-project"/>
+  <id>http:/DMC2021F/exam/1-semester-project</id>
+  <published>2021-12-03T00:00:00-06:00</published>
+  <updated>2021-12-03T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;This is page describes the final semester project that will serve as the final exam for this course. Please submit all your efforts for this project (all files, data, and results) in &lt;code&gt;DMC2021F/exams/final/&lt;/code&gt; directory in your private repository for this course. Don’t forget to push your answers to your remote Github repository by &lt;strong&gt;Sunday 11:59 PM, Dec 12, 2021&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;hierarchical-clustering&quot;&gt;Hierarchical Clustering&lt;/h2&gt;
+
+&lt;p&gt;Consider the set of (x,y) coordinates of 1000 points in this file: &lt;a href=&quot;http:/DMC2021F/exam/1-problem/points.txt&quot; target=&quot;_blank&quot;&gt;points.txt&lt;/a&gt;. Plotting these points would yield a scatter plot like the black points in the following plot.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/exam/1-problem/scatterPlot.png&quot; width=&quot;900&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The red points on this plot delineate the borders of the three ellipsoids from which these points have been drawn. Suppose, we did not have any a priori knowledge of these ellipsoids and we wanted to &lt;strong&gt;guess them&lt;/strong&gt; to the best of our knowledge using Machine Learning methods, in particular, clustering techniques.&lt;/p&gt;
+
+&lt;p&gt;The problem here, however, is slightly complex than the above supposition: We may not even know, a priori, how many clusters exist in our data set. Many clustering techniques have been developed over the past decades to automatically answer the question of how many clusters exist in a dataset and where and which objects belong to what clusters.&lt;/p&gt;
+
+&lt;p&gt;Here, we want to focus on a very special approach. To predict the original ellipsoids from which these points are drawn, we can start with a very simple assumption (a top-down hierarchical clustering approach): suppose all points came from one single ellipsoid. We can build this hypothetical ellipsoid by constructing the covariance matrix of the set of points in the dataset and then scale it properly such that the ellipsoid covers all the points in our dataset. Here is a procedure to this in Python,&lt;/p&gt;
+
+&lt;p&gt;First, we read the data set and visualize it,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;%matplotlib notebook
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+
+# read data
+Data = pd.read_csv(&quot;points.txt&quot;)
+Point = np.array([Data.x,Data.y])
+
+fig = plt.figure( figsize=(4.5, 4) \
+                , dpi= 100 \
+                , facecolor='w' \
+                , edgecolor='w' \
+                ) # create figure object
+ax = fig.add_subplot(1,1,1) # Get the axes instance
+
+ax.plot( Point[0,:] \
+       , Point[1,:] \
+       , 'r.' \
+       , markersize = 1 \
+       ) # plot with color red, as line
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+fig.savefig('points.png', dpi=200) # save the figure to an external file
+plt.show() # display the figure
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will display the following figure,&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/exam/1-problem/points.png&quot; width=&quot;900&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, here is a script that computes the covariance matrix of a given sample of points (here, our dataset),&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def getMinVolPartition(Point):
+    import numpy as np
+    npoint = len(Point[0,:])
+    ndim = len(Point[:,0])
+    ncMax = npoint // (ndim + 1) # max number of clusters possible
+    BoundingEllipsoidCenter = np.array([np.mean(Point[0,:]),np.mean(Point[1,:])])
+    SampleCovMat = np.mat(np.cov(Point))
+    SampleInvCovMat = np.mat(np.linalg.inv(SampleCovMat))
+    PointNormed = np.mat(np.zeros((ndim,npoint)))
+    for idim in range(ndim):
+        PointNormed[idim,:] = Point[idim] - BoundingEllipsoidCenter[idim]
+    MahalSq = PointNormed.T * SampleInvCovMat * PointNormed
+    maxMahalSq = np.max(MahalSq)
+    BoundingEllipsoidVolume = np.linalg.det(SampleCovMat) * maxMahalSq**ndim
+    BoundingEllipsoidCovMat = SampleCovMat * maxMahalSq
+    print(
+    &quot;&quot;&quot;
+    nd = {}
+    np = {}
+    ncMax = {}
+    SampleCovMat = {}
+    InvCovMat = {}
+    max(MahalSq) = {}
+    BoundingEllipsoidCenter = {}
+    BoundingEllipsoidCovMat = {}
+    BoundingEllipsoidVolume = {}
+    &quot;&quot;&quot;.format( ndim
+              , npoint
+              , ncMax
+              , SampleCovMat[:]
+              , SampleInvCovMat
+              , maxMahalSq
+              , BoundingEllipsoidCenter
+              , BoundingEllipsoidCovMat
+              , BoundingEllipsoidVolume
+              ))
+    return BoundingEllipsoidCenter, BoundingEllipsoidCovMat
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Calling this function would give an output like the following,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;getMinVolPartition(Point)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;    nd = 2
+    np = 1000
+    ncMax = 333
+    SampleCovMat = [[1.0761723  0.36394188]
+ [0.36394188 0.71635847]]
+    InvCovMat = [[ 1.12198982 -0.5700206 ]
+ [-0.5700206   1.68554491]]
+    max(MahalSq) = 14.185346024371276
+    BoundingEllipsoidCenter = [6.44826263 6.14296536]
+    BoundingEllipsoidCovMat = [[15.26587652  5.16264153]
+ [ 5.16264153 10.16179275]]
+    BoundingEllipsoidVolume = 128.47580579408614
+
+(array([6.44826263, 6.14296536]), matrix([[15.26587652,  5.16264153],
+         [ 5.16264153, 10.16179275]]))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;where, the variable &lt;code&gt;BoundingEllipsoidCenter&lt;/code&gt; is a vector of lebght two, representing the center of the bounding ellipsoid of these points, the variable &lt;code&gt;BoundingEllipsoidCovMat&lt;/code&gt; represents the 2-by-2 covariance matrix of this bounding ellipsoid, and the variable &lt;code&gt;BoundingEllipsoidVolume&lt;/code&gt; is the determinant of this bounding ellipsoid, essentially representing the volume encosed by it.&lt;/p&gt;
+
+&lt;p&gt;To visualize this bounding ellipsoid, we can use the following code,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;def getRandMVU(numRandMVU,MeanVec,CovMat,isInside=True):
+    &quot;&quot;&quot;
+    generates numRandMVU uniformly-distributed random points from 
+    inside an ndim-dimensional ellipsoid with Covariance Matrix CovMat, 
+    centered at MeanVec[0:ndim].
+    Output:
+        Numpy matrix of shape numRandMVU by ndim
+    &quot;&quot;&quot;
+    import numpy as np
+    ndim = len(MeanVec)
+    AvgStdMVN = np.zeros(ndim)
+    CovStdMVN = np.eye(ndim)
+    RandStdMVN = np.random.multivariate_normal(AvgStdMVN,CovStdMVN,numRandMVU)
+    DistanceSq = np.sum(RandStdMVN**2, axis=1)
+    #print(len(DistanceSq))
+    if isInside:
+        UnifRnd = np.random.random((numRandMVU,))
+        UnifRnd = (UnifRnd**(1./ndim)) / np.sqrt(DistanceSq)
+
+    CholeskyLower = np.linalg.cholesky(np.mat(CovMat))
+    #print(CholeskyLower[1,0])
+    RandMVU = np.zeros(np.shape(RandStdMVN))
+    for iRandMVU in range(numRandMVU):
+        if isInside:
+            RandStdMVN[iRandMVU] *= UnifRnd[iRandMVU]
+        else:
+            RandStdMVN[iRandMVU] /= np.sqrt(DistanceSq[iRandMVU])
+        for i in range(ndim):
+            RandMVU[iRandMVU,i] = RandMVU[iRandMVU,i] + CholeskyLower[i,i] * RandStdMVN[iRandMVU,i]
+            for j in range(i+1,ndim):
+                RandMVU[iRandMVU,j] = RandMVU[iRandMVU,j] + CholeskyLower[j,i] * RandStdMVN[iRandMVU,i]
+        RandMVU[iRandMVU] += MeanVec
+    return RandMVU
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The above code takes an input covariance matrix &lt;code&gt;CovMat&lt;/code&gt; corresponding to an ellipsoid of interest centered at &lt;code&gt;MeanVec&lt;/code&gt;, then outputs a set of &lt;code&gt;numRandMVU&lt;/code&gt; points that lie on the boundary of this ellipsoid. If the optional argument &lt;code&gt;isInside&lt;/code&gt; is set to &lt;code&gt;False&lt;/code&gt;, then the output random points will be uniformly distributed inside the ellipsoid.&lt;/p&gt;
+
+&lt;p&gt;Here is an illustration of the bounding ellipsoid of the points we are interested to classify in this problem,&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;MeanVec, CovMat = getMinVolPartition(Point)
+RandMVU = getRandMVU( numRandMVU=10000
+                    , MeanVec=MeanVec
+                    , CovMat=CovMat
+                    , isInside = False
+                    )
+%matplotlib notebook
+import matplotlib.pyplot as plt
+
+fig = plt.figure( figsize=(4.5, 4) \
+                , dpi= 100 \
+                , facecolor='w' \
+                , edgecolor='w' \
+                ) # create figure object
+
+# plot the points
+plt.plot( Point[0,:] \
+        , Point[1,:] \
+        , 'r.' \
+        , markersize = 2 \
+        )
+
+# plot the center point
+plt.plot( MeanVec[0] \
+        , MeanVec[1] \
+        , 'b.' \
+        , markersize = 10 \
+        )
+
+# plot the bounding ellipsoid
+plt.scatter(RandMVU[:,0],RandMVU[:,1],1)
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/exam/1-problem/boundingEllipsoid.png&quot; width=&quot;900&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;So far, we have been able to find an ellipsoid that encloses all of the points in our problem. But here is the second question: Does this single ellipsoid accurately describe the original ellipsoid(s) from which the points were drawn? and does it really represent the least-volume bounding ellipsoid for all of these points?&lt;/p&gt;
+
+&lt;p&gt;One way to ensure that this ellipsoid is indeed the least-volume ellipsoid is to check and see if the points are uniformly distributed inside our single ellipsoid. But this turns out to be a very challenging task.&lt;/p&gt;
+
+&lt;p&gt;An easier way to see if the single ellipsoid is a good fit to our points is to compute the area of the single ellipsoid, then move on to assume that our data came from &lt;strong&gt;two ellipsoids&lt;/strong&gt; instead of a single ellipsoid. At this point, we can use the K-means clustering method to find the two clusters from which these points could have been drawn.&lt;/p&gt;
+
+&lt;p&gt;Now, here is the critical step: We compute the sum of the areas enclosed by these two ellipsoids (which could overlap, but that is fine, &lt;strong&gt;we proceed as if they were not overlapping&lt;/strong&gt;). Then we can compare this sum with the area of the original single ellipsoid in the above figure:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;If the area of the single ellipsoid is smaller than the sum of the areas of the two child-ellipsoids, we assume that all of the points in our dataset came from the single ellipsoid, and stop further searches for potentially more clusters in our dataset.&lt;/li&gt;
+  &lt;li&gt;However, if the area of the single ellipsoid is larger than the sum of the areas of the two child-ellipsoids, then we know that the two smaller ellipsoids are likely better fit to our dataset than a single ellipsoid. Therefore, our dataset was likely generated from two-ellipsoids.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;But what if there are more than two ellipsoids responsible for the generation of the points? One way to test this hypothesis is to repeat the above procedure for the two child-ellipsoids and see whether any one of them can be replaced with two sub-child-ellipsoids instead. This procedure can be then repeated for as many times as needed, until the algorithm stops, implying that all of the child-ellipsoids have been found, &lt;strong&gt;or&lt;/strong&gt;, the number of points for a sub-clustering task becomes 3 or less than 3, in which case no more clustering is possible, because we need at least three points to form a 2D ellipsoid.&lt;/p&gt;
+
+&lt;p&gt;Write an algorithm based on the above description and provided scripts that can classify all of the points in a given dataset into an automatically-determined number of ellipsoids, such that each point in the dataset is enclosed by at least one ellipsoid. The first graph above shows an example of a set of such ellipsoids illustrated by the green dots.&lt;/p&gt;
+
+&lt;p&gt;Note that the ellipsoids found by your algorithm are not unique, meaning that different runs of the algorithm could potentially yield different sets of best-fit ellipsoids. However, we can hope that each set of such ellipsoids found by the algorithm is a good approximation to the original ellipsoids from which the points were drawn.&lt;/p&gt;
+
+&lt;p&gt;Here is an animation of this algorithm at work, for a set of points with an evolving overall-shape over time,&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/exam/1-problem/ellipsoids_forever.gif&quot; width=&quot;900&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/exam/1-semester-project&quot;&gt;Final exam: semester project&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on December 03, 2021.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -88,6 +336,51 @@ Push all your answers to &lt;strong&gt;quiz/6/&lt;/strong&gt; folder in your Git
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/6-regression&quot;&gt;Quiz 6: Regression and The Maximum Likelihood Method&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 19, 2021.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 6: Regression and The Maximum Likelihood Method]]></title>
+  <link rel="alternate" type="text/html" href="http:/DMC2021F/quiz/6-regression-Copy"/>
+  <id>http:/DMC2021F/quiz/6-regression - Copy</id>
+  <published>2021-11-19T00:00:00-06:00</published>
+  <updated>2021-11-19T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/DMC2021F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DMC2021F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of regression and the maximum likelihood method. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to &lt;strong&gt;quiz/6/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-erf-censored-gaussian-data/regression-erf-censored-gaussian-data&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the distribution of the a dataset subjected to a smooth censorship (sample incompleteness)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/quiz/6-regression-Copy&quot;&gt;Quiz 6: Regression and The Maximum Likelihood Method&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on November 19, 2021.&lt;/p&gt;</content>
 </entry>
 
 
@@ -644,91 +937,6 @@ The following figure illustrates the grade distribution for this quiz.
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/4-data&quot;&gt;Lecture 4: Knowing Data II&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 08, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 1: Introduction and getting to know the data]]></title>
-  <link rel="alternate" type="text/html" href="http:/DMC2021F/homework/1-intro-data"/>
-  <id>http:/DMC2021F/homework/1-intro-data</id>
-  <published>2021-09-04T00:00:00-05:00</published>
-  <updated>2021-09-04T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DMC2021F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;&lt;br /&gt;
-♣ &lt;strong&gt;Due Date: Friday September 10, 2021 1:00 PM&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;First, use the following Markdown language references, or any other reference that you find or prefer, to design a Github-interpretable README file for each of folders in your project for this course, and a Github web-page for your project.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http:/DMC2021F/lecture/1/markdown-cheatsheet-online.pdf&quot; target=&quot;_blank&quot;&gt;Markdown language cheat-sheet (pdf)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://blog.ghost.org/markdown/&quot; target=&quot;_blank&quot;&gt;Markdown language reference (web)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot; target=&quot;_blank&quot;&gt;Adam Pritchard’s Markdown cheat-sheet (web)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Write your code sections of your answer in Markdown syntax.
-For example,&lt;br /&gt;
-&lt;code&gt;
-    ```bash  &lt;br /&gt;
-    $ git branch -d test  &lt;br /&gt;
-    error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'  &lt;br /&gt;
-    ```
-&lt;/code&gt;
-&lt;br /&gt;
-will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, in your &lt;em&gt;readme.md&lt;/em&gt; file (albeit, with different style and color).&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git branch -d test
-error: Cannot delete branch 'test' checked out at 'C:/Users/Amir/git/foo'
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub (Only Part 1)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;What is Data Mining?&lt;/li&gt;
-  &lt;li&gt;How is a data warehouse different from a database? How are they similar?&lt;/li&gt;
-  &lt;li&gt;Explain the difference and similarity between classification and regression.&lt;/li&gt;
-  &lt;li&gt;Outliers are often discarded as noise. However, one person’s garbage could be another’s treasure. For example, exceptions in credit card transactions can help us detect the fraudulent use of credit cards. Using fraudulence detection as an example, propose two methods that can be used to detect outliers and discuss which one is more reliable.&lt;/li&gt;
-  &lt;li&gt;What is a Data Tuple?&lt;/li&gt;
-  &lt;li&gt;What are the major challenges of mining a huge amount of data (e.g., billions of tuples) in comparison with mining a small amount of data (e.g., data set of a few hundred tuple)?&lt;/li&gt;
-  &lt;li&gt;Name the common kinds of attributes and provide an example for each.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-mean-weighted/stat-mean-weighted&quot; target=&quot;_blank&quot;&gt;Computing the mean of a weighted data.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/stat-sample-mean-variance-skewness-kurtosis/stat-sample-mean-variance-skewness-kurtosis&quot; target=&quot;_blank&quot;&gt;Computing the first four moments of a sample.
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/homework/1-intro-data&quot;&gt;Homework 1: Introduction and getting to know the data&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 04, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 3: Knowing Data I]]></title>
-  <link rel="alternate" type="text/html" href="http:/DMC2021F/lecture/3-data"/>
-  <id>http:/DMC2021F/lecture/3-data</id>
-  <published>2021-09-03T00:00:00-05:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/DMC2021F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/7at93z6izk3jk2q/3.data.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DMC2021F/lecture/3-data&quot;&gt;Lecture 3: Knowing Data I&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/DMC2021F&quot;&gt;DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313&lt;/a&gt; on September 03, 2021.&lt;/p&gt;</content>
 </entry>
 
 </feed>

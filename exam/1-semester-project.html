@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="/DMC2021F/assets/js/mdHeaderCollapse.js"></script>
+-->
+
+<meta charset="utf-8">
+<title>FINAL EXAM: SEMESTER PROJECT &vert; DATA 3421 - FALL 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313</title>
+<meta name="description" content="Data Mining, Management, and Curation">
+<meta name="keywords" content="">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Final exam: semester project">
+<meta property="og:description" content="Data Mining, Management, and Curation">
+<meta property="og:url" content="/DMC2021F/exam/1-semester-project">
+<meta property="og:site_name" content="DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313">
+<meta property="og:image" content="/DMC2021F/images/">
+
+
+
+
+
+<link rel="canonical" href="/DMC2021F/exam/1-semester-project">
+<!-- <link href="/DMC2021F/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 3421 - Fall 2021 - MW 2:30-3:50 PM - PKH 302 - F 1:00-2:50 PM - PKH 313 Feed"> -->
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/DMC2021F/assets/css/vendor/font-awesome.min.css">
+<link rel="stylesheet" href="/DMC2021F/assets/css/vendor/normalize.css">
+<link rel="stylesheet" href="/DMC2021F/assets/css/vendor/nprogress.css">
+<link rel="stylesheet" href="/DMC2021F/assets/css/vendor/foundation.min.css">
+<link rel="stylesheet" href="/DMC2021F/assets/css/style.css">
+<link rel="stylesheet" href="/DMC2021F/assets/css/post.css">
+
+<!--Mathjax LaTeX engine-->
+
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- Icons -->
+<link rel="shortcut icon" href="/DMC2021F/favicon.ico">
+<!--
+<link rel="shortcut icon" href="/DMC2021F/favicon.png">
+-->
+
+
+<!-- prism
+<link href="/DMC2021F/assets/css/prismTwilight.css" rel="stylesheet" />
+<link href="/DMC2021F/assets/css/prismDefault.css" rel="stylesheet" />
+<link href="/DMC2021F/assets/css/prismCoy.css" rel="stylesheet" />
+-->
+<link href="/DMC2021F/assets/css/prismOkaidia.css" rel="stylesheet" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float:left;font-size:4.688rem;line-height:4.375rem;padding-top:.25rem;padding-right:.5rem;padding-left:.188rem;font-family:serif}}</style>
+</head>
+<body class="post-template" itemscope itemtype="https://schema.org/WebPage">  
+
+        <main id="notepad-post-container-simple" class="notepad-post-container-simple" role="main">
+            <header class="notepad-post-header-simple">
+                <div class="notepad-post-menu-header-simple">
+
+                    <a class="notepad-blog-logo" href=https://www.cdslab.org target="_blank"><img src="/DMC2021F/images/logo.png" alt="cdslab.org" /></a>
+
+                <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
+        <a href="#"><i class="fa fa-bars"></i></a>
+    </div>
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
+            <a href="#"><i class="fa fa-times"></i></a>
+        </li>
+
+            <li>
+                    <a href="/DMC2021F/">Home</a>
+                 </li>
+
+            <li>
+                    <a href="/DMC2021F/highlights">Highlights</a>
+                 </li>
+
+            <li>
+                    <a href="/DMC2021F/categories">Categories</a>
+                 </li>
+
+            <li>
+                    <a href="/DMC2021F/about">About</a>
+                 </li>
+            
+           <li><a href="/DMC2021F/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </ul>
+
+</div>
+            </div>
+
+                <div class="notepad-post-title-simple row">
+                    <div class="small-12 columns">
+                        <div class="notepad-post-meta-simple">
+                            <h2>Final exam: semester project</h2>
+                            <p>by <strong>Amir Shahmoradi</strong> &#8212;  <strong><time datetime="2021-12-03T00:00:00-06:00">03 Dec 2021</time></strong></p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+        
+            <article class="notepad-post-content post tag-simple">
+        
+            <div style="text-align:justify;">
+                <p>This is page describes the final semester project that will serve as the final exam for this course. Please submit all your efforts for this project (all files, data, and results) in <code>DMC2021F/exams/final/</code> directory in your private repository for this course. Don’t forget to push your answers to your remote Github repository by <strong>Sunday 11:59 PM, Dec 12, 2021</strong>.</p>
+
+<h2 id="hierarchical-clustering">Hierarchical Clustering</h2>
+
+<p>Consider the set of (x,y) coordinates of 1000 points in this file: <a href="/DMC2021F/exam/1-problem/points.txt" target="_blank">points.txt</a>. Plotting these points would yield a scatter plot like the black points in the following plot.</p>
+
+<figure>
+    <img src="/DMC2021F/exam/1-problem/scatterPlot.png" width="900" />
+</figure>
+<p><br /></p>
+
+<p>The red points on this plot delineate the borders of the three ellipsoids from which these points have been drawn. Suppose, we did not have any a priori knowledge of these ellipsoids and we wanted to <strong>guess them</strong> to the best of our knowledge using Machine Learning methods, in particular, clustering techniques.</p>
+
+<p>The problem here, however, is slightly complex than the above supposition: We may not even know, a priori, how many clusters exist in our data set. Many clustering techniques have been developed over the past decades to automatically answer the question of how many clusters exist in a dataset and where and which objects belong to what clusters.</p>
+
+<p>Here, we want to focus on a very special approach. To predict the original ellipsoids from which these points are drawn, we can start with a very simple assumption (a top-down hierarchical clustering approach): suppose all points came from one single ellipsoid. We can build this hypothetical ellipsoid by constructing the covariance matrix of the set of points in the dataset and then scale it properly such that the ellipsoid covers all the points in our dataset. Here is a procedure to this in Python,</p>
+
+<p>First, we read the data set and visualize it,</p>
+
+<pre><code class="language-python">%matplotlib notebook
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+
+# read data
+Data = pd.read_csv("points.txt")
+Point = np.array([Data.x,Data.y])
+
+fig = plt.figure( figsize=(4.5, 4) \
+                , dpi= 100 \
+                , facecolor='w' \
+                , edgecolor='w' \
+                ) # create figure object
+ax = fig.add_subplot(1,1,1) # Get the axes instance
+
+ax.plot( Point[0,:] \
+       , Point[1,:] \
+       , 'r.' \
+       , markersize = 1 \
+       ) # plot with color red, as line
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+fig.savefig('points.png', dpi=200) # save the figure to an external file
+plt.show() # display the figure
+</code></pre>
+
+<p>This will display the following figure,</p>
+
+<figure>
+    <img src="/DMC2021F/exam/1-problem/points.png" width="900" />
+</figure>
+<p><br /></p>
+
+<p>Now, here is a script that computes the covariance matrix of a given sample of points (here, our dataset),</p>
+
+<pre><code class="language-python">def getMinVolPartition(Point):
+    import numpy as np
+    npoint = len(Point[0,:])
+    ndim = len(Point[:,0])
+    ncMax = npoint // (ndim + 1) # max number of clusters possible
+    BoundingEllipsoidCenter = np.array([np.mean(Point[0,:]),np.mean(Point[1,:])])
+    SampleCovMat = np.mat(np.cov(Point))
+    SampleInvCovMat = np.mat(np.linalg.inv(SampleCovMat))
+    PointNormed = np.mat(np.zeros((ndim,npoint)))
+    for idim in range(ndim):
+        PointNormed[idim,:] = Point[idim] - BoundingEllipsoidCenter[idim]
+    MahalSq = PointNormed.T * SampleInvCovMat * PointNormed
+    maxMahalSq = np.max(MahalSq)
+    BoundingEllipsoidVolume = np.linalg.det(SampleCovMat) * maxMahalSq**ndim
+    BoundingEllipsoidCovMat = SampleCovMat * maxMahalSq
+    print(
+    """
+    nd = {}
+    np = {}
+    ncMax = {}
+    SampleCovMat = {}
+    InvCovMat = {}
+    max(MahalSq) = {}
+    BoundingEllipsoidCenter = {}
+    BoundingEllipsoidCovMat = {}
+    BoundingEllipsoidVolume = {}
+    """.format( ndim
+              , npoint
+              , ncMax
+              , SampleCovMat[:]
+              , SampleInvCovMat
+              , maxMahalSq
+              , BoundingEllipsoidCenter
+              , BoundingEllipsoidCovMat
+              , BoundingEllipsoidVolume
+              ))
+    return BoundingEllipsoidCenter, BoundingEllipsoidCovMat
+</code></pre>
+
+<p>Calling this function would give an output like the following,</p>
+
+<pre><code class="language-python">getMinVolPartition(Point)
+</code></pre>
+<pre><code>    nd = 2
+    np = 1000
+    ncMax = 333
+    SampleCovMat = [[1.0761723  0.36394188]
+ [0.36394188 0.71635847]]
+    InvCovMat = [[ 1.12198982 -0.5700206 ]
+ [-0.5700206   1.68554491]]
+    max(MahalSq) = 14.185346024371276
+    BoundingEllipsoidCenter = [6.44826263 6.14296536]
+    BoundingEllipsoidCovMat = [[15.26587652  5.16264153]
+ [ 5.16264153 10.16179275]]
+    BoundingEllipsoidVolume = 128.47580579408614
+
+(array([6.44826263, 6.14296536]), matrix([[15.26587652,  5.16264153],
+         [ 5.16264153, 10.16179275]]))
+</code></pre>
+
+<p>where, the variable <code>BoundingEllipsoidCenter</code> is a vector of lebght two, representing the center of the bounding ellipsoid of these points, the variable <code>BoundingEllipsoidCovMat</code> represents the 2-by-2 covariance matrix of this bounding ellipsoid, and the variable <code>BoundingEllipsoidVolume</code> is the determinant of this bounding ellipsoid, essentially representing the volume encosed by it.</p>
+
+<p>To visualize this bounding ellipsoid, we can use the following code,</p>
+
+<pre><code class="language-python">def getRandMVU(numRandMVU,MeanVec,CovMat,isInside=True):
+    """
+    generates numRandMVU uniformly-distributed random points from 
+    inside an ndim-dimensional ellipsoid with Covariance Matrix CovMat, 
+    centered at MeanVec[0:ndim].
+    Output:
+        Numpy matrix of shape numRandMVU by ndim
+    """
+    import numpy as np
+    ndim = len(MeanVec)
+    AvgStdMVN = np.zeros(ndim)
+    CovStdMVN = np.eye(ndim)
+    RandStdMVN = np.random.multivariate_normal(AvgStdMVN,CovStdMVN,numRandMVU)
+    DistanceSq = np.sum(RandStdMVN**2, axis=1)
+    #print(len(DistanceSq))
+    if isInside:
+        UnifRnd = np.random.random((numRandMVU,))
+        UnifRnd = (UnifRnd**(1./ndim)) / np.sqrt(DistanceSq)
+
+    CholeskyLower = np.linalg.cholesky(np.mat(CovMat))
+    #print(CholeskyLower[1,0])
+    RandMVU = np.zeros(np.shape(RandStdMVN))
+    for iRandMVU in range(numRandMVU):
+        if isInside:
+            RandStdMVN[iRandMVU] *= UnifRnd[iRandMVU]
+        else:
+            RandStdMVN[iRandMVU] /= np.sqrt(DistanceSq[iRandMVU])
+        for i in range(ndim):
+            RandMVU[iRandMVU,i] = RandMVU[iRandMVU,i] + CholeskyLower[i,i] * RandStdMVN[iRandMVU,i]
+            for j in range(i+1,ndim):
+                RandMVU[iRandMVU,j] = RandMVU[iRandMVU,j] + CholeskyLower[j,i] * RandStdMVN[iRandMVU,i]
+        RandMVU[iRandMVU] += MeanVec
+    return RandMVU
+</code></pre>
+
+<p>The above code takes an input covariance matrix <code>CovMat</code> corresponding to an ellipsoid of interest centered at <code>MeanVec</code>, then outputs a set of <code>numRandMVU</code> points that lie on the boundary of this ellipsoid. If the optional argument <code>isInside</code> is set to <code>False</code>, then the output random points will be uniformly distributed inside the ellipsoid.</p>
+
+<p>Here is an illustration of the bounding ellipsoid of the points we are interested to classify in this problem,</p>
+
+<pre><code class="language-python">MeanVec, CovMat = getMinVolPartition(Point)
+RandMVU = getRandMVU( numRandMVU=10000
+                    , MeanVec=MeanVec
+                    , CovMat=CovMat
+                    , isInside = False
+                    )
+%matplotlib notebook
+import matplotlib.pyplot as plt
+
+fig = plt.figure( figsize=(4.5, 4) \
+                , dpi= 100 \
+                , facecolor='w' \
+                , edgecolor='w' \
+                ) # create figure object
+
+# plot the points
+plt.plot( Point[0,:] \
+        , Point[1,:] \
+        , 'r.' \
+        , markersize = 2 \
+        )
+
+# plot the center point
+plt.plot( MeanVec[0] \
+        , MeanVec[1] \
+        , 'b.' \
+        , markersize = 10 \
+        )
+
+# plot the bounding ellipsoid
+plt.scatter(RandMVU[:,0],RandMVU[:,1],1)
+
+ax.set_xlabel('X')
+ax.set_ylabel('Y')
+plt.show()
+</code></pre>
+
+<figure>
+    <img src="/DMC2021F/exam/1-problem/boundingEllipsoid.png" width="900" />
+</figure>
+<p><br /></p>
+
+<p>So far, we have been able to find an ellipsoid that encloses all of the points in our problem. But here is the second question: Does this single ellipsoid accurately describe the original ellipsoid(s) from which the points were drawn? and does it really represent the least-volume bounding ellipsoid for all of these points?</p>
+
+<p>One way to ensure that this ellipsoid is indeed the least-volume ellipsoid is to check and see if the points are uniformly distributed inside our single ellipsoid. But this turns out to be a very challenging task.</p>
+
+<p>An easier way to see if the single ellipsoid is a good fit to our points is to compute the area of the single ellipsoid, then move on to assume that our data came from <strong>two ellipsoids</strong> instead of a single ellipsoid. At this point, we can use the K-means clustering method to find the two clusters from which these points could have been drawn.</p>
+
+<p>Now, here is the critical step: We compute the sum of the areas enclosed by these two ellipsoids (which could overlap, but that is fine, <strong>we proceed as if they were not overlapping</strong>). Then we can compare this sum with the area of the original single ellipsoid in the above figure:</p>
+
+<ol>
+  <li>If the area of the single ellipsoid is smaller than the sum of the areas of the two child-ellipsoids, we assume that all of the points in our dataset came from the single ellipsoid, and stop further searches for potentially more clusters in our dataset.</li>
+  <li>However, if the area of the single ellipsoid is larger than the sum of the areas of the two child-ellipsoids, then we know that the two smaller ellipsoids are likely better fit to our dataset than a single ellipsoid. Therefore, our dataset was likely generated from two-ellipsoids.</li>
+</ol>
+
+<p>But what if there are more than two ellipsoids responsible for the generation of the points? One way to test this hypothesis is to repeat the above procedure for the two child-ellipsoids and see whether any one of them can be replaced with two sub-child-ellipsoids instead. This procedure can be then repeated for as many times as needed, until the algorithm stops, implying that all of the child-ellipsoids have been found, <strong>or</strong>, the number of points for a sub-clustering task becomes 3 or less than 3, in which case no more clustering is possible, because we need at least three points to form a 2D ellipsoid.</p>
+
+<p>Write an algorithm based on the above description and provided scripts that can classify all of the points in a given dataset into an automatically-determined number of ellipsoids, such that each point in the dataset is enclosed by at least one ellipsoid. The first graph above shows an example of a set of such ellipsoids illustrated by the green dots.</p>
+
+<p>Note that the ellipsoids found by your algorithm are not unique, meaning that different runs of the algorithm could potentially yield different sets of best-fit ellipsoids. However, we can hope that each set of such ellipsoids found by the algorithm is a good approximation to the original ellipsoids from which the points were drawn.</p>
+
+<p>Here is an animation of this algorithm at work, for a set of points with an evolving overall-shape over time,</p>
+
+<figure>
+    <img src="/DMC2021F/exam/1-problem/ellipsoids_forever.gif" width="900" />
+</figure>
+<p><br /></p>
+
+<p><br /><br /></p>
+
+            </div>
+        </article>
+        <div class="cf"></div>
+<div class="row text-center">
+    <section class="notepad-post-share">
+        <a class="twitter-icon" href="https://twitter.com/intent/tweet?text=&quot;Final exam: semester project&quot;%20/DMC2021F/exam/1-semester-project%20via%20&#64;"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a class="facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=/DMC2021F/exam/1-semester-project"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+            <i class="fa fa-facebook"></i>
+        </a>
+        
+    </section>
+</div>
+        <div class="cf"></div>
+        
+<div class="notepad-author-info">
+    <div class="row">
+        <section class="notepad-post-author small-12 columns">
+            <a href=https://www.shahmoradi.org target="_blank">
+                <img src="/DMC2021F/images/AmirShahmoradi.png" class="notepad-post-author-avatar" alt="Amir Shahmoradi's photo">
+            </a>
+            <span class="author-label">Author</span>
+            <h1>Amir Shahmoradi</h1>
+            <p><a href="mailto:shahmoradi@utexas.edu" class="author-website">shahmoradi@utexas.edu</a></p>
+            <p>Genius is 99% perspiration and 1% inspiration</p>
+        </section>
+    </div>
+</div> 
+        
+        <div class="cf"></div>
+        
+        <section class="notepad-disqus row">
+    <div class="small-12 columns">
+        <h1 class="notepad-comments-header">Comments</h1>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'shahmoradi'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+        <div class="cf"></div>
+
+    <footer class="notepad-site-footer">
+    <div class="copyright">
+         <!-- <section>Last updated 2021 / 12 / 06</section></br> -->
+         <section>Last updated Monday, 06 Dec 2021 at 12:17 AM CST</section></br>
+         <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
+         <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
+         <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>
+         <section>SEIR 365 | Arlington TX 76010</section></br>
+    </div>
+    <div class="social-icons">
+
+        
+        <a href="https://facebook.com/cdslab" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        
+
+        
+        <a href="https://github.com/cdslaborg" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        
+
+        
+
+        
+        <a href="https://instagram.com/cdslaborg" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+        </a>
+        
+
+        
+        <a href="https://medium.com/cdslab" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-medium fa-stack-1x"></i>
+                <!--
+                -->
+            </span>
+        </a>
+        
+
+        
+        <a href="https://twitter.com/cdslaborg" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+<div style="color: #000000; float: none; width: 100%; padding-top: 1rem;">
+    <span style="font-size:0.8em">visitor count: 
+        <script type="text/javascript">
+            var sc_project=12067697; 
+            var sc_invisible=0; 
+            var sc_security="879eb905"; 
+            var sc_text=3; 
+            var scJsHost = "https://";
+            document.write("<sc"+"ript type='text/javascript' src='" + scJsHost + 
+            "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+    </span>
+</div>
+
+
+    </div>
+    <div class="cf"></div>
+</footer> 
+</main>    
+<!--dynamic page header-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/DMC2021F/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script src="/DMC2021F/assets/js/vendor/modernizr.js"></script>
+  <script src="/DMC2021F/assets/js/foundation.min.js"></script>
+  
+  <script src="/DMC2021F/assets/js/notepad.js"></script>
+  <script src="/DMC2021F/assets/js/scripts.min.js"></script>
+  <script src="/DMC2021F/assets/js/vendor/nprogress.js"></script>
+  
+  <script>
+    $(document).foundation();
+  </script>
+  <script type='text/javascript'>console.log("N/A");</script>
+  <script type='text/javascript'>console.log("https://www.cdslab.org/");</script>
+
+<!--header anchor links-->
+<script src="/DMC2021F/assets/js/autoAnchorLink.js"></script>
+
+<!-- <script src="/DMC2021F/assets/js/prismOkaidia.js"></script>
+<script src="/DMC2021F/assets/js/prismTwilight.js"></script>
+<script src="/DMC2021F/assets/js/prismDefault.js"></script>
+ -->
+<script src="/DMC2021F/assets/js/prismCoy.js"></script> 
+<!--automatic Table of Content.-->
+<script src="/DMC2021F/assets/js/autoTOC.js"></script>
+</body>
+</html>

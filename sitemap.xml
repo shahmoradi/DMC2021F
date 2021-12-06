@@ -52,11 +52,19 @@
 
     
     <url>
+        <loc>/DMC2021F/exam/1-semester-project</loc>
+    </url>
+    
+    <url>
         <loc>/DMC2021F/homework/7-clustering</loc>
     </url>
     
     <url>
         <loc>/DMC2021F/quiz/6-regression</loc>
+    </url>
+    
+    <url>
+        <loc>/DMC2021F/quiz/6-regression-Copy</loc>
     </url>
     
     <url>
