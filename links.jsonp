@@ -3,12 +3,12 @@ callback([
 
   {
     "text": "Quiz 6: Regression and The Maximum Likelihood Method",
-    "href": "/DMC2021F/quiz/6-regression-Copy"
+    "href": "/DMC2021F/quiz/6-regression"
   } ,
 
   {
-    "text": "Quiz 6: Regression and The Maximum Likelihood Method",
-    "href": "/DMC2021F/quiz/6-regression"
+    "text": "Quiz 6: Clustering with K-medoids method",
+    "href": "/DMC2021F/quiz/7-clustering"
   } ,
 
   {
